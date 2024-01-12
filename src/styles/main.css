@@ -1,5 +1,6 @@
 /* src/styles/main.css */
 @import url('variables.css');
+@import '~bootstrap/dist/css/bootstrap.min.css';
 
 /* Reset some default styles */
 body, h1, h2, h3, p {

@@ -1,5 +1,6 @@
 // src/components/ProjectCard.jsx
 import React from 'react';
+import "../ProjectCard/style.css";
 
 const ProjectCard = ({ title, description, imageUrl }) => {
   return (

@@ -1,5 +1,6 @@
 // src/pages/Home.jsx
 import React from 'react';
+import "."
 
 const Home = ({ count, setCount }) => {
   return (
