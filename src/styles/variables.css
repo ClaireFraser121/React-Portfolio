@@ -1,0 +1,25 @@
+/* src/styles/variables.css */
+
+/* Colors */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --text-color: #333;
+  }
+  
+  /* Font Sizes */
+  :root {
+    --font-size-small: 14px;
+    --font-size-medium: 16px;
+    --font-size-large: 18px;
+  }
+  
+  /* Spacing */
+  :root {
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 24px;
+  }
+  
+  /* Add more variables based on your design */
+  
