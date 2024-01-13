@@ -1,6 +1,8 @@
 /* src/styles/main.css */
+
+/* Import variables and Bootstrap */
 @import url('variables.css');
-@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '/node_modules//bootstrap/dist/css/bootstrap.rtl.min.css';
 
 /* Reset some default styles */
 body, h1, h2, h3, p {
@@ -20,17 +22,29 @@ header {
     text-align: center;
 }
 
-footer {
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  footer {
     background-color: #333;
     color: #fff;
     padding: 10px;
     text-align: center;
-}
+    /* Adjust styling as needed */
+  }
 
 .project-card {
     border: 1px solid #ddd;
     margin: 10px;
     padding: 10px;
+    /* Add more specific styles for project cards */
 }
 
 /* Use variables in styles */
@@ -44,5 +58,47 @@ header {
     color: #fff;
     padding: var(--spacing-medium);
 }
+
+/* Additional styles for navigation */
+.navbar {
+    background-color: var(--primary-color); /* Set the background color for the navbar */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Adjust the font size of the navbar brand */
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* Set the text color of the navbar links */
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; /* Set the color of the navbar toggler icon */
+}
+
+/* src/styles/main.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto; /* Push the footer to the bottom */
+    /* Adjust styling as needed */
+  }
+  
 
 /* Add more styles based on your design */

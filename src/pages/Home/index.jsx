@@ -1,18 +1,14 @@
-// src/pages/Home.jsx
 import React from 'react';
-import "."
 
-const Home = ({ count, setCount }) => {
+const Home = () => {
   return (
     <div>
-      {/* Your home page content goes here */}
-      <h2>Welcome to Your Portfolio</h2>
-      <p>Count: {count}</p>
-      <button onClick={() => setCount((prevCount) => prevCount + 1)}>
-        Increment Count
-      </button>
+      <h2>Claire Fraser</h2>
+      {/* Add your headshot or avatar */}
+      <p>Your brand statement</p>
+      <p>Indication that this is your portfolio site</p>
     </div>
   );
-};
+}
 
 export default Home;
