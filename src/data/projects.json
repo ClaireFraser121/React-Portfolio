@@ -5,7 +5,8 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "deployedLink": "https://example.com/project1",
       "repositoryLink": "https://github.com/example/project1",
-      "image": "project1.jpg"
+      "image": "project1.jpg",
+      "imageUrl": "/images/project1-thumbnail.jpg"
     },
     {
       "id": 2,
@@ -13,7 +14,8 @@
       "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "deployedLink": "https://example.com/project2",
       "repositoryLink": "https://github.com/example/project2",
-      "image": "project2.png"
+      "image": "project2.png",
+      "imageUrl": "/images/project1-thumbnail.jpg"
     }
   ]
   
