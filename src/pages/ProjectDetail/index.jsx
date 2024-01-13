@@ -1,6 +1,7 @@
 // src/pages/ProjectDetails.jsx
 import React from 'react';
-
+import Project from '../../components/Project';
+import projectData from '../../data/projects.json';
 const ProjectDetails = ({ match }) => {
   // Access project ID from the URL parameters
   const projectId = match.params.id;
