@@ -19,7 +19,7 @@ function App() {
       <div id="wrapper">
         <Navbar bg="dark" variant="dark">
           <Container>
-            <Navbar.Brand href="/">Claire's Portfolio</Navbar.Brand>
+            <Navbar.Brand href="/">Portfolio</Navbar.Brand>
             <Nav className="me-auto">
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/projects">Projects</Nav.Link>
