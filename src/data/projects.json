@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "title": "Project 1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "deployedLink": "https://example.com/project1",
+      "repositoryLink": "https://github.com/example/project1",
+      "image": "project1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Project 2",
+      "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "deployedLink": "https://example.com/project2",
+      "repositoryLink": "https://github.com/example/project2",
+      "image": "project2.png"
+    }
+  ]
+  
