@@ -1,14 +1,15 @@
 // src/components/ProjectCard.jsx
 import React from 'react';
-import "../ProjectCard/style.css";
+import { Link } from 'react-router-dom';
+import "./style.css";
 
-const ProjectCard = ({ title, description, imageUrl }) => {
+const ProjectCard = ({ title, description, imageUrl, projectId }) => {
   return (
-    <div className="project-card">
+    <Link to={`/project/${projectId}`} className="project-card">
       <img src={imageUrl} alt={title} />
       <h3>{title}</h3>
       <p>{description}</p>
-    </div>
+    </Link>
   );
 }
 
