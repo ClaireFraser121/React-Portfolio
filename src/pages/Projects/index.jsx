@@ -1,18 +1,16 @@
 // src/pages/Projects.jsx
 import React from 'react';
 import ProjectCard from '../../components/ProjectCard';
+import projectData from '../../data/projects.json'; // Assuming you have a JSON file with project data
+import "../../components/Project/style.css";
 
 const Projects = () => {
   return (
     <div>
-      {/* Your projects page content goes here */}
       <h2>Projects</h2>
-      <ProjectCard
-        title="Project 1"
-        description="Description of Project 1"
-        imageUrl="/images/project1-thumbnail.jpg"
-      />
-      {/* Add more ProjectCard components for other projects */}
+      {projectData.map((project) => (
+        <ProjectCard key={project.id} {...project} />
+      ))}
     </div>
   );
 }
