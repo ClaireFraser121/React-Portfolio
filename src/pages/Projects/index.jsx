@@ -1,7 +1,7 @@
 // src/pages/Projects.jsx
 import React from 'react';
 import ProjectCard from '../../components/ProjectCard';
-import projectData from '../../data/projects.json'; // Assuming you have a JSON file with project data
+import projectData from '../../data/projects.json'; 
 import "../../components/Project/style.css";
 
 const Projects = () => {
@@ -9,7 +9,13 @@ const Projects = () => {
     <div>
       <h2>Projects</h2>
       {projectData.map((project) => (
-        <ProjectCard key={project.id} {...project} />
+        <ProjectCard
+          key={project.id}
+          id={project.id}
+          title={project.title}
+          description={project.description}
+          imageUrl={project.imageUrl}
+        />
       ))}
     </div>
   );
