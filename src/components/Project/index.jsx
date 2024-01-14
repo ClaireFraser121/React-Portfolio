@@ -1,5 +1,6 @@
 // src/components/Project.jsx
 import React from 'react';
+import "./style.css";
 
 const Project = ({ title, description, imageUrl, deployedLink, githubLink }) => {
   return (

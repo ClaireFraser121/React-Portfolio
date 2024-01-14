@@ -1,5 +1,6 @@
 // src/nav/index.jsx
 import React from 'react';
+import "./style.css";
 
 const NavPage = () => {
   return (

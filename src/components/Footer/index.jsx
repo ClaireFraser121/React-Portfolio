@@ -1,14 +1,15 @@
 // src/components/Footer.jsx
 import React from 'react';
-import ".";
-
+import "./style.css";
 const Footer = () => {
   return (
-    <footer>
+    <footer className="navbar navbar-dark bg-dark">
       {/* Your footer content goes here */}
-      <p>&copy; 2024 Your Portfolio</p>
+      <p className="text-light">&copy; 2024 Your Portfolio</p>
     </footer>
   );
 }
 
 export default Footer;
+
+

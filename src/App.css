@@ -1,41 +1,22 @@
-/* src/App.css */
-
-/* Apply global styles if needed */
+/* General styling */
 body {
   font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/* Navbar styles */
+/* Navbar styling */
 .navbar {
-  background-color: #343a40; /* Bootstrap dark navbar background color */
-  color: #fff; /* Navbar text color */
+  background-color: #333;
+  color: white;
 }
 
-.nav-link {
-  color: #fff !important; /* Navbar link text color */
+/* Container for page content */
+#content {
+  margin-bottom: 60px; /* Adjust the margin to the height of your footer */
 }
 
-/* Page content styles */
-.container {
-  padding: 20px; /* Add padding to the container for better spacing */
-}
+/* src/styles/style.css */
 
-/* Footer styles */
-.footer {
-  background-color: #343a40; /* Bootstrap dark footer background color */
-  color: #fff; /* Footer text color */
-  padding: 10px;
-  text-align: center;
-  width: 100%;
-  margin-top: auto;
-}
+/* Add Bootstrap classes for the Footer */
 
-/* Custom project card styles */
-.project-card {
-  border: 1px solid #ddd;
-  margin: 10px;
-  padding: 10px;
-  /* Add more styles based on your design */
-}
-
-/* Additional custom styles can be added as needed */
