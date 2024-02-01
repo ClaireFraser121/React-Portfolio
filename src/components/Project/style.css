@@ -1,0 +1,27 @@
+/* src/components/Project/style.css */
+
+.project-container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-title {
+    color: #333;
+  }
+  
+  .project-description {
+    color: #666;
+  }
+  
+  .project-links {
+    margin-top: 10px;
+  }
+  
+  .project-links a {
+    color: #007bff;
+  }
+  

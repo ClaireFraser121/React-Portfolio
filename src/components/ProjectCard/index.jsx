@@ -1,18 +1,19 @@
-// src/components/ProjectCard.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "../ProjectCard/style.css";
+import './style.css'; // Import your custom styles
 
 const ProjectCard = ({ id, title, description, imageUrl }) => {
   return (
     <div className="project-card">
       <Link to={`/project/${id}`}>
         <img src={imageUrl} alt={title} />
-        <h3>{title}</h3>
-        <p>{description}</p>
+        <div className="project-info">
+          <h3>{title}</h3>
+          <p>{description}</p>
+        </div>
       </Link>
     </div>
   );
-}
+};
 
 export default ProjectCard;

@@ -1,17 +1,24 @@
 // src/components/Project.jsx
 import React from 'react';
-import "./style.css";
+import ProjectCard from '../../components/ProjectCard';
+import projectsData from '../../data/projects.json'; // Adjust the path accordingly
+import "./style.css"; // Import your custom styles
 
-const Project = ({ title, description, imageUrl, deployedLink, githubLink }) => {
+const Projects = () => {
   return (
     <div>
-      <h3>{title}</h3>
-      <p>Description: {description}</p>
-      <img src={imageUrl} alt={title} />
-      <p>Link to deployed version: <a href={deployedLink}>{deployedLink}</a></p>
-      <p>Link to GitHub repository: <a href={githubLink}>{githubLink}</a></p>
+      <h2>Projects</h2>
+      {projectsData.map(project => (
+        <ProjectCard
+          key={project.id}
+          id={project.id}
+          title={project.title}
+          description={project.description}
+          imageUrl={project.imageUrl}
+        />
+      ))}
     </div>
   );
 }
 
-export default Project;
+export default Projects;

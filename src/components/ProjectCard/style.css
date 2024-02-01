@@ -1,0 +1,29 @@
+/* src/components/ProjectCard/style.css */
+
+.project-card {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .project-info {
+    text-align: center;
+  }
+  
+  .project-info h3 {
+    color: #333;
+  }
+  
+  .project-info p {
+    color: #666;
+  }
+  

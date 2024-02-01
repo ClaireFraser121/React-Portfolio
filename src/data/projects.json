@@ -2,10 +2,10 @@
     {
       "id": 1,
       "title": "Project 1",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "deployedLink": "https://example.com/project1",
-      "repositoryLink": "https://github.com/example/project1",
-      "image": "project1.jpg",
+      "description": "BeWyld Train & Meal Prep Coach is a dynamic web application designed to empower users on their fitness journey by providing a personalised and comprehensive approach to workouts and nutrition. This project is driven by a passion for facilitating efficient and tailored fitness experiences for enthusiasts who aspire to achieve their health and wellness goals.",
+      "deployedLink": "https://annamkhalid.github.io/bewyld-api-project",
+      "repositoryLink": "https://github.com/AnnamKhalid/bewyld-api-project",
+      "image": "/images/shutterstockfood_1033079713.jpg",
       "imageUrl": "/images/project1-thumbnail.jpg"
     },
     {

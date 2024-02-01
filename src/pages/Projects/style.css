@@ -1,0 +1,33 @@
+/* src/components/Project/style.css */
+
+/* Add styles for the Project component here */
+.project-container {
+    /* Define styles for the container holding the project content */
+    margin-bottom: 20px;
+  }
+  
+  .project-title {
+    /* Define styles for the project title */
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .project-description {
+    /* Define styles for the project description */
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .project-links {
+    /* Define styles for the project links (deployedLink and repositoryLink) */
+    margin-top: 10px;
+  }
+  
+  .project-image {
+    /* Define styles for the project image */
+    width: 100%; /* Make the image fill the container width */
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid #ddd; /* Add a border around the image */
+  }
+  
